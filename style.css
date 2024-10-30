@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(90deg, aqua, blue);
+}
+
+.first, .second{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+.first{
+    margin-top: 20vh;
+}
+
+.plus{
+    margin-top: 20px;
+}
+
+button{
+    width: 50px;
+    height: 40px;
+    font-size: 1.1rem;
+    background-color: aqua;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.result{
+    color: white;
+}
+
+.clear{
+    width: 65px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
