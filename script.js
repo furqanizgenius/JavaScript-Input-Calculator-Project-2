@@ -12,7 +12,7 @@ plus.addEventListener('click', () => {
     let second = parseFloat(document.querySelector('.second').value);
 
     if (isNaN(first) || isNaN(second)) {
-        result.innerText = "Enter Number Only...";
+        result.innerText = "Enter any Number...";
         result.style.color = "red";
     }
     else {
@@ -26,7 +26,7 @@ minus.addEventListener('click', () => {
     let second = parseFloat(document.querySelector('.second').value);
 
     if (isNaN(first) || isNaN(second)) {
-        result.innerText = "Enter Number Only...";
+        result.innerText = "Enter any Number...";
         result.style.color = "red";
     }
     else {
@@ -41,10 +41,9 @@ multiply.addEventListener('click', () => {
     let second = parseFloat(document.querySelector('.second').value);
 
     if (isNaN(first) || isNaN(second)) {
-        result.innerText = "Enter Number Only...";
+        result.innerText = "Enter any Number...";
         result.style.color = "red";
     }
-
     else {
         let multiply = first * second;
         result.innerText = "Multiplication : " + multiply;
@@ -74,4 +73,5 @@ clear.addEventListener('click', ()=>{
     first.value = "";
     second.value = "";
     result.innerText = "";
+    result.style.color = "white";
 })
