@@ -5,7 +5,6 @@ let multiply = document.querySelector('.multiply');
 let divide = document.querySelector('.divide');
 let clear = document.querySelector('.clear');
 
-
 plus.addEventListener('click', () => {
     let result = document.querySelector('.result');
     let first = parseFloat(document.querySelector('.first').value);
@@ -20,6 +19,7 @@ plus.addEventListener('click', () => {
         result.innerText = "Sum : " + sum;
     }
 })
+
 minus.addEventListener('click', () => {
     let result = document.querySelector('.result');
     let first = parseFloat(document.querySelector('.first').value);
