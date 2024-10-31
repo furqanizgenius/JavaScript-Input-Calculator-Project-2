@@ -1,23 +1,31 @@
-body{
+body {
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-image: linear-gradient(90deg, aqua, blue);
 }
 
-.first, .second{
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-}
-.first{
-    margin-top: 20vh;
+h1, h4 {
+    color: white;
 }
 
-.plus{
+.first,
+.second {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.first {
+    margin-top: 10vh;
+}
+
+.plus {
     margin-top: 20px;
 }
 
-button{
+button {
     width: 50px;
     height: 40px;
     font-size: 1.1rem;
@@ -26,13 +34,26 @@ button{
     cursor: pointer;
 }
 
-.result{
+.result {
     color: white;
 }
 
-.clear{
+.clear {
     width: 65px;
     height: 40px;
     background-color: red;
     color: white;
+}
+
+.wrapper {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid blue;
+    /* -webkit-box-shadow: 0 0 5px 2px #fff; */
+    /* -moz-box-shadow: 0 0 15px 10px #fff; */
+    box-shadow: 0 0 15px 10px #fff;
 }
