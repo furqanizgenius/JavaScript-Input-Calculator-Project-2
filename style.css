@@ -26,8 +26,8 @@ h1, h4 {
 }
 
 button {
-    width: 320px;
-    height: 275px;
+    width: 50px;
+    height: 40px;
     font-size: 1.1rem;
     background-color: aqua;
     border: 1px solid gray;
@@ -47,8 +47,9 @@ button {
 
 .wrapper {
     background-color: lightblue;
-    width: 500px;
-    height: 300px;
+    /* border-radius: 50%; */
+    width: 320px;
+    height: 275px;
     margin: auto;
     padding: 40px;
     border: 2px solid blue;
@@ -56,4 +57,3 @@ button {
     /* -moz-box-shadow: 0 0 15px 10px #fff; */
     box-shadow: 0 0 15px 10px #fff;
 }
-
